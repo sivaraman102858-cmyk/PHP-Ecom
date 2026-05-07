@@ -1,0 +1,10 @@
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  email VARCHAR(150) UNIQUE,
+  password VARCHAR(255),
+  otp VARCHAR(6),
+  is_verified INT DEFAULT 0,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

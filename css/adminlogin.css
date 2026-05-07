@@ -1,0 +1,39 @@
+body {
+            min-height: 100vh;
+            background: linear-gradient(120deg, #36d1dc, #5b86e5, #cc2b5e);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .login-card {
+            border-radius: 20px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .left-panel h1 {
+            font-weight: bold;
+        }
+
+        .right-panel {
+            padding: 40px;
+            background: white;
+        }
+
+        .form-control {
+            border-radius: 12px;
+        }
+
+        .btn-login {
+            background: linear-gradient(to right, #36d1dc, #5b86e5);
+            border: none;
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .btn-login:hover {
+            opacity: 0.9;
+        }

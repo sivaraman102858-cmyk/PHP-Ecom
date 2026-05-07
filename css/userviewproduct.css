@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+/* Glass Card */
+.glass-card {
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.85);
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+/* Product Image */
+.product-img {
+    width: 100%;
+    height: 420px;
+    object-fit: contain;
+    border-radius: 16px;
+}
+
+/* Sticky Buy Bar */
+.buy-bar {
+    position: sticky;
+    bottom: 0;
+    background: white;
+    padding: 12px;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.15);
+}
